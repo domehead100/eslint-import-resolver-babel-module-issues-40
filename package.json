@@ -1,0 +1,35 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts":{
+      "demo": "eslint src/components/ui/countryPicker/index.jsx"
+  },
+ "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-module-alias": "^1.6.0",
+    "babel-react-render-defender": "^1.1.1",
+    "eslint": "^3.12.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-import-resolver-babel-module": "^2.2.1",
+    "eslint-import-resolver-babel-module-alias": "^1.5.1",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-plugin-module-resolver": "^2.4.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-decorators-legacy": "^1.0.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-runtime": "^6.20.0"
+  }
+}

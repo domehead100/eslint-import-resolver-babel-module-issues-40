@@ -1,0 +1,28 @@
+{
+  "plugins": [
+    "transform-object-rest-spread",
+    ["module-resolver", {
+      "root": ["./frontend/src"],
+      "alias": {
+        "test": "./frontend/test"
+      }
+    }]
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "es2015",
+        "decorators-legacy",
+        "react",
+        "babel-react-render-defender"
+      ]
+    },
+    "production": {
+      "presets": [
+        "es2015",
+        "decorators-legacy",
+        "react"
+      ]
+    }
+  }
+}
